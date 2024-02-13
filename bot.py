@@ -41,7 +41,7 @@ from Script import script
 from datetime import date, datetime 
 import pytz
 from aiohttp import web
-from TechVJ.server import web_server
+from okmj.server import web_server
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -50,9 +50,9 @@ from TechVJ.server import web_server
 import asyncio
 from pyrogram import idle
 from plugins.clone import restart_bots
-from TechVJ.bot import StreamBot
-from TechVJ.utils.keepalive import ping_server
-from TechVJ.bot.clients import initialize_clients
+from okmj.bot import StreamBot
+from okmj.utils.keepalive import ping_server
+from okmj.bot.clients import initialize_clients
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ

@@ -16,19 +16,19 @@ def is_enabled(value, default):
         return default
       
 # Owner Information
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
-ADMINS = int(environ.get("ADMINS", ""))
+API_ID = int(environ.get("API_ID", "27968790"))
+API_HASH = environ.get("API_HASH", "235677b6053d640a695fcbbc338aa513")
+ADMINS = int(environ.get("ADMINS", "6912497566"))
 
 # Database Information
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://okmjbhai:frlOL5QZC93zQAi0@cluster2.gabz4cl.mongodb.net/?retryWrites=true&w=majority")
 CDB_NAME = environ.get("CDB_NAME", "clonemjbotz")
-DB_URI = environ.get("DB_URI", "")
+DB_URI = environ.get("DB_URI", "mongodb+srv://okmjbhai:iKw2vWM6UOZdClVl@cluster1.qkj12yx.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = environ.get("DB_NAME", "mjbotz")
 
 # Bot Information
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
-BOT_USERNAME = environ.get("BOT_USERNAME", "") # your bot username without @
+BOT_TOKEN = environ.get("BOT_TOKEN", "6907925626:AAH4JKQDl6-JoGh0g2g7bkMHgNwU_TGAXPA")
+BOT_USERNAME = environ.get("BOT_USERNAME", "cdn_storage_bot") # your bot username without @
 PICS = (environ.get('PICS', 'https://graph.org/file/51ec365f25db9a7b80000.png https://graph.org/file/51ec365f25db9a7b80000.png')).split() # Bot Start Picture
 
 # Auto Delete Information
@@ -36,8 +36,8 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", ""))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", " -1001996698150"))
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002127048812')).split()]
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
@@ -53,7 +53,7 @@ class Var(object):
     name = str(getenv('name', 'filetolinkmjbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', ''))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001996698150'))
     PORT = int(getenv('PORT', 8080))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes

@@ -27,7 +27,7 @@ DB_URI = environ.get("DB_URI", "mongodb+srv://okmjbhai:iKw2vWM6UOZdClVl@cluster1
 DB_NAME = environ.get("DB_NAME", "mjbotz")
 
 # Bot Information
-BOT_TOKEN = environ.get("BOT_TOKEN", "6907925626:AAH4JKQDl6-JoGh0g2g7bkMHgNwU_TGAXPA")
+BOT_TOKEN = environ.get("BOT_TOKEN", "")
 BOT_USERNAME = environ.get("BOT_USERNAME", "cdn_storage_bot") # your bot username without @
 PICS = (environ.get('PICS', 'https://graph.org/file/51ec365f25db9a7b80000.png https://graph.org/file/51ec365f25db9a7b80000.png')).split() # Bot Start Picture
 
